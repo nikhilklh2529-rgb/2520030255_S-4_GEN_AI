@@ -1,0 +1,22 @@
+# Virtual environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Generated after running the experiment (don't commit personal logs/caches)
+results/*
+!results/.gitkeep
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local secrets should never be committed
+.env
+.env.*
+!.env.example

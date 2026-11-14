@@ -1,0 +1,5 @@
+# Tokenizer-only lab: no PyTorch and no model weights required.
+transformers>=4.46,<5.0
+sentencepiece>=0.2.0,<0.3
+tiktoken>=0.7,<1.0
+protobuf>=4.25,<7.0
